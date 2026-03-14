@@ -5,7 +5,6 @@ import java.util.List;
 class Repository {
     private String url = "jdbc:sqlserver://LAPTOP-I6GCH1M5;databaseName=HardwareDB;integratedSecurity=true;encrypt=true;trustServerCertificate=true;";
 
-    
     public List<Hardware> getHardwareData() {
         List<Hardware> data = new ArrayList<>();
         
