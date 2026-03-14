@@ -8,10 +8,8 @@ abstract class Hardware {
         this.brand = brand;
         this.spec = spec;
     }
-
     public abstract String getInterpretation();
 
-    
     public int getSpec() {
         return spec;
     }
